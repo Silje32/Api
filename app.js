@@ -1,4 +1,4 @@
-const url = "https://cyberpunk-edgerunners-api.vercel.app/char";
+const url = "http://cyberpunk-edgerunners-api.vercel.app/char";
 
 const test = document.querySelector("#test");
 let CyberPunkChars = [];
