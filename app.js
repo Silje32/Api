@@ -11,7 +11,7 @@ fetch(url)
     return response.json();
   })
   .then((chars) => {
-    if ((chars = "")) {
+    if (chars == "") {
       throw new Error("array was empty");
     }
     CyberPunkChars = chars;
